@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Starlume Games - Indie game developer Samet creating magical and immersive gaming worlds.">
+<meta name="keywords" content="indie games, game developer, pixel art, story-driven games, Starlume Games">
+<meta name="author" content="Samet">
+<title>Starlume Games - Indie Game Developer</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+
+<!-- AOS Library for scroll animations -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Games / Projects</a>
+    <a href="#donate">Donate</a>
+    <button id="theme-toggle">🌙</button> <!-- Dark/Light toggle -->
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="parallax">
+    <div class="overlay" data-aos="fade-up">
+        <h1>Welcome to Starlume Games</h1>
+        <p>Hi! I'm Samet, a passionate indie game developer creating magical and immersive gaming worlds. Explore my games, follow my journey, and join the adventure!</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container" data-aos="fade-right">
+        <h2>About Me</h2>
+        <p>Hello! I'm Samet, a solo indie game developer passionate about crafting unforgettable experiences with compelling stories, captivating art, and engaging gameplay.</p>
+
+        <p>By following my work, you can:</p>
+        <ul>
+            <li>🎮 See the development process up close.</li>
+            <li>✨ Access exclusive content like behind-the-scenes looks and early demos.</li>
+            <li>💡 Share your ideas and feedback to shape the games.</li>
+            <li>🔥 Support independent development and help bring ambitious projects to life.</li>
+        </ul>
+
+        <p>Your support means everything. Thank you for joining me on this adventure!</p>
+
+        <a href="https://starlume-games.itch.io/" target="_blank" class="cta-btn">Check out my games on itch.io</a>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2 data-aos="fade-down">Games / Projects</h2>
+    <div class="project-cards">
+        <div class="card" data-aos="zoom-in">
+            <video autoplay muted loop playsinline>
+                <source src="game1.mp4" type="video/mp4">
+            </video>
+            <h3>Game 1</h3>
+            <p>Short description of Game 1.</p>
+            <a href="#">Play / Demo</a>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <video autoplay muted loop playsinline>
+                <source src="game2.mp4" type="video/mp4">
+            </video>
+            <h3>Game 2</h3>
+            <p>Short description of Game 2.</p>
+            <a href="#">Play / Demo</a>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <video autoplay muted loop playsinline>
+                <source src="game3.mp4" type="video/mp4">
+            </video>
+            <h3>Game 3</h3>
+            <p>Short description of Game 3.</p>
+            <a href="#">Play / Demo</a>
+        </div>
+    </div>
+</section>
+
+<!-- Donate Section -->
+<section id="donate">
+    <h2 data-aos="fade-up">Support Me</h2>
+    <p data-aos="fade-up" data-aos-delay="100">If you like my work and want to help me create more games, you can support me via Patreon or donate directly.</p>
+    <a href="https://www.patreon.com/cw/StarlumeGames" target="_blank" class="cta-btn" data-aos="fade-up" data-aos-delay="200">Donate / Patreon</a>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({ duration: 1000, once: true });
+
+    // Dark / Light Mode Toggle
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        if(document.body.classList.contains('dark-mode')){
+            toggle.textContent = '☀️';
+        } else {
+            toggle.textContent = '🌙';
+        }
+    });
+</script>
+</body>
+</html>
