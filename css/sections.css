@@ -9,7 +9,7 @@ section {
 
 .parallax {
     background: url('Images/background.jpg') center/cover fixed no-repeat;
-    color: white;
+    color: black;
     position: relative;
     text-align: center;
     overflow: hidden;
