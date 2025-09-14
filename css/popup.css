@@ -19,6 +19,7 @@
     border-radius: 15px;
     max-width: 900px;
     width: 90%;
+    min-height: 50vh;
     max-height: 90vh;
     overflow-y: auto;
     padding: 25px;
@@ -44,3 +45,10 @@
     cursor: pointer;
 }
 .popup-close:hover { background: var(--cta-hover); }
+.popup-content::-webkit-scrollbar {
+    width: 8px;
+}
+.popup-content::-webkit-scrollbar-thumb {
+    background-color: var(--nav-btn-hover);
+    border-radius: 4px;
+}
