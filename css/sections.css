@@ -59,6 +59,7 @@ section {
     background: var(--donate-bg);
     text-align: center;
     transition: background 0.5s;
+    min-height: 40vh;
 }
 body.dark-mode #donate { background: var(--donate-bg-dark); }
 /* Dark Mode Parallax */
