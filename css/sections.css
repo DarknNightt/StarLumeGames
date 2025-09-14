@@ -8,8 +8,8 @@ section {
 }
 
 .parallax {
-    background: url('Images/background.jpg') center/cover fixed no-repeat;
-    color: black;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('Images/background.jpg') center/cover fixed no-repeat;    color: white;
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -61,7 +61,11 @@ section {
     transition: background 0.5s;
 }
 body.dark-mode #donate { background: var(--donate-bg-dark); }
-
+/* Dark Mode Parallax */
+body.dark-mode .parallax {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                url('Images/background.jpg') center/cover fixed no-repeat;
+}
 #donate a {
     display: inline-block;
     color: white;
