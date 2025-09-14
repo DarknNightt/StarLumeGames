@@ -8,7 +8,7 @@ section {
 }
 
 .parallax {
-    background: url('background.jpg') center/cover fixed no-repeat;
+    background: url('Images/background.jpg') center/cover fixed no-repeat;
     color: white;
     position: relative;
     text-align: center;
