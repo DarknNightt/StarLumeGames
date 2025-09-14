@@ -1,0 +1,48 @@
+/* --- CSS Variables for Dark/Light Mode --- */
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --nav-bg: #222;
+    --nav-btn-bg: #555;
+    --nav-btn-hover: #ff6600;
+    --card-bg: #fff;
+    --card-border-hover: #ff6600;
+    --cta-bg: #ff6600;
+    --cta-hover: #e65c00;
+    --donate-bg: linear-gradient(135deg, #ffecd1, #ffcc99);
+    --donate-bg-dark: linear-gradient(135deg, #2a2a2a, #1e1e1e);
+    --glow-start: #ff6600;
+    --glow-end: #ffcc00;
+}
+
+body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f4f4f4;
+    --nav-bg: #111;
+    --nav-btn-bg: #333;
+    --nav-btn-hover: #ff6600;
+    --card-bg: #2a2a2a;
+    --card-border-hover: #ff6600;
+    --cta-bg: #ff6600;
+    --cta-hover: #e65c00;
+}
+
+/* Global Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.5s, color 0.5s;
+}
+
+h2 { font-size: 2em; margin-bottom: 20px; }
+p  { max-width: 700px; }

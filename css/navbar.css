@@ -1,0 +1,30 @@
+nav {
+    width: 100%;
+    background-color: var(--nav-bg);
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a, #theme-toggle {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: var(--nav-btn-bg);
+    transition: background 0.3s, transform 0.3s, color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+nav a:hover, #theme-toggle:hover {
+    background-color: var(--nav-btn-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 0 12px var(--glow-start);
+}
