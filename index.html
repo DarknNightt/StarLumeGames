@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StarlumeGames | Next Gen Unreal Engine Experiences</title>
+  <meta name="description" content="StarlumeGames - Next generation gaming experiences developed with Unreal Engine.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="logo-container">
+      <img src="/logo.png" alt="Starlume Logo">
+      <span class="logo-text">STARLUME<span class="text-gradient">GAMES</span></span>
+    </div>
+    <button class="menu-btn" id="menu-btn">☰</button>
+    <div class="nav-links" id="nav-links">
+      <a href="#home" data-t="nav_home">Home</a>
+      <a href="#projects" data-t="nav_projects">Projects</a>
+      <a href="#about" data-t="nav_about">About</a>
+      <a href="#contact" data-t="nav_contact">Contact</a>
+      <div class="lang-dropdown">
+        <button id="lang-toggle" class="theme-toggle" data-t="lang_btn">Language: EN</button>
+        <div class="lang-menu glass">
+          <button data-lang="en">English</button>
+          <button data-lang="tr">Türkçe</button>
+          <button data-lang="ja">日本語</button>
+          <button data-lang="de">Deutsch</button>
+        </div>
+      </div>
+      <button id="theme-toggle" class="theme-toggle">🌙 Mode</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <h1 data-t="hero_title">STYLIZED <span class="text-gradient">WORLDS</span></h1>
+      <p data-t="hero_desc">We build aesthetic low-poly worlds and unique gaming experiences with Unreal Engine 5. We
+        combine art and technology in its purest form.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary" data-t="hero_btn_projects">Low-Poly Projects</a>
+        <a href="#about" class="btn-outline" data-t="hero_btn_vision">Our Vision</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="projects">
+      <div class="section-title">
+        <h2 data-t="sec_projects_title">OUR PROJECTS</h2>
+        <p data-t="sec_projects_desc">Some of our stylized and low-poly works developed with Unreal Engine.</p>
+      </div>
+      <div class="grid">
+        <div class="card glass">
+          <h3 data-t="project_1_title">POLY-QUEST</h3>
+          <p data-t="project_1_desc">An adventure set in a geometric universe, meticulously designed in every corner.
+            (In production)</p>
+        </div>
+        <div class="card glass">
+          <h3 data-t="project_2_title">NEON SLICE</h3>
+          <p data-t="project_2_desc">A high-paced arcade experience where low-poly aesthetics meet neon colors.</p>
+        </div>
+        <div class="card glass">
+          <h3 data-t="project_3_title">AESTHETIC DEMOS</h3>
+          <p data-t="project_3_desc">Our technical works pushing the limits of stylized graphics on UE5.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-title">
+        <h2 data-t="sec_about_title">WHY LOW-POLY?</h2>
+      </div>
+      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <p style="font-size: 1.2rem; color: var(--text-dim);" data-t="sec_about_desc">
+          Simplicity is the ultimate sophistication. At StarlumeGames, we blend the clean and impressive visuals of
+          low-poly art with the powerful mechanics of Unreal Engine to offer players memorable atmospheres.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="logo-container" style="justify-content: center; margin-bottom: 20px;">
+      <span class="logo-text">STARLUME<span class="text-gradient">GAMES</span></span>
+    </div>
+    <p data-t="footer_welcome">Welcome to the next generation of entertainment.</p>
+    <div class="footer-links">
+      <a href="#">X / Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">ArtStation</a>
+      <a href="#">YouTube</a>
+    </div>
+    <p style="color: #444; font-size: 0.8rem; margin-top: 20px;" data-t="footer_rights">© 2026 StarlumeGames. All rights
+      reserved.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
