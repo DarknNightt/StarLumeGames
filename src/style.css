@@ -201,7 +201,7 @@ nav.scrolled {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 15px;
 }
 
 .nav-links a {
@@ -516,7 +516,7 @@ footer {
   font-weight: 600;
   font-size: 0.85rem;
   transition: var(--transition);
-  margin-left: 20px;
+  margin-left: 10px;
   align-items: center;
 }
 
@@ -529,7 +529,7 @@ footer {
 /* Language Dropdown Styles */
 .lang-dropdown {
   position: relative;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .lang-menu {
