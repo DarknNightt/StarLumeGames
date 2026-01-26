@@ -10,7 +10,7 @@ export const translations = {
         hero_btn_vision: "Vizyonumuz",
         sec_projects_title: "PROJELERİMİZ",
         sec_projects_desc: "Unreal Engine ile geliştirdiğimiz bazı stilize ve low-poly çalışmalarımız.",
-        project_1_title: "Yapım Aşamasında",
+        project_1_title: "Star Cursed Kingdom",
         project_1_desc: "Bu proje şu anda geliştirme aşamasındadır. Çok yakında burada olacak.",
         project_2_title: "Yapım Aşamasında",
         project_2_desc: "Bu proje şu anda geliştirme aşamasındadır. Çok yakında burada olacak.",
